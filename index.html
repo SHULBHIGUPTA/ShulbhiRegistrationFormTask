@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJwKLUV5F8hho9-9qMAm_4v6r7GnVR4dD4Tg&usqp=CAU");
+                margin: 0px;
+
+            }
+            form {
+            color: white;
+            width: 40%;
+            height: 87vh;
+            margin: 3% 30% 5% 30%;
+            background-color: rgba(0, 0, 0, 0.568); 
+            padding-inline: 40px;
+            padding-top: 10px;
+
+        }
+        form:hover {
+                border-radius: 20%;
+                color: yellow;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJwKLUV5F8hho9-9qMAm_4v6r7GnVR4dD4Tg&usqp=CAU")
+            }
+
+            form:hover h2{
+                border-radius: 20%;
+            }
+        form .s1{
+            font-weight: bolder;
+            
+        }
+        div:hover button{
+            font-weight: bolder;
+            color: blue; 
+        }
+        
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2 style="text-align: center;  background-color: white; color: black">Registration Form</h2><br>
+            <label class="s1">First Name:</label>
+            <input type="text" required style="width:350px"/> 
+            <br>
+            <br>
+            <br>
+            <label class="s1">Last Name:</label>
+            <input type="text" style="width:350px"/> 
+            <br>
+            <br>
+            <br>
+            <label class="s1">Gender:</label>
+            <input type="radio" name="gender"/>
+            <label>Male</label>
+            <input type="radio" name="gender"/>
+            <label>Female</label>
+            <input type="radio" name="gender"/>
+            <label>Other</label>  
+            <br>
+            <br>
+            <br>
+            <label class="s1">Email:</label>
+            <input type="text" required style="width:380px"/> 
+            <br>
+            <br>
+            <br>
+            <label minlength="10" maxlength="10" class="s1">Phone Number:</label>
+            <select id="selector">
+            <option value="+91" selected>+91</option>
+            </select><input type='tel' minlength="10"maxlenth= "10" pattern="[0-9]" style="width:270px"/>
+            <br>
+            <br>
+            <br>
+            <label class="s1" required>User Name:</label>
+            <input type="text" style="width:350px"/> 
+            <br>
+            <br>
+            <br>
+            <label class="s1" required>Enter password:</label>
+            <input type="password" style="width:320px"/> 
+            <br>
+            <br>
+            <br>
+            <label class="s1" required>Confirm password:</label>
+            <input type="password"style="width:300px"/> 
+            <br>
+            <br>
+            <br>
+            <div>
+                <button>Register</a></button> 
+                <input type="Reset"value="Reset"/> 
+                <button><a href="signin.html" target="_black">Login</a></button>
+            </div>
+             
+        </form>
+     
+
+        </body>
+
+</html>
